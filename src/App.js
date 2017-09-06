@@ -36,7 +36,7 @@ class App extends Component {
           delay={2000}
           opacity={1}
           shadow={false}
-          hide={true}
+          hide={false}
           nonblock={false}
           desktop={false}
         />
@@ -48,7 +48,7 @@ class App extends Component {
           delay={2000}
           opacity={1}
           shadow={false}
-          hide={true}
+          hide={false}
           nonblock={false}
           desktop={false}
         />
@@ -60,7 +60,7 @@ class App extends Component {
           delay={2000}
           opacity={1}
           shadow={false}
-          hide={true}
+          hide={false}
           nonblock={false}
           desktop={false}
         />
