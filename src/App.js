@@ -11,28 +11,52 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>PNotify for React</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Overview and examples: <a href="https://sciactive.github.io/pnotify/">https://sciactive.github.io/pnotify/</a>
         </p>
         <Notification
           type='notice'
-          title='Notice test - Permanent'
-          text='Helpful information goes here'
+          title='Notice example - Permanent'
+          text='Helpful notice content goes here'
           animation='show'
           delay={2000}
           opacity={1}
           shadow={false}
           hide={false}
-          nonblock={false}
+          nonblock={true}
           desktop={true}
         />
         <Notification
+          type='success'
+          title='Success example'
+          text='Success message goes here'
+          animation='pulse'
+          delay={2000}
+          opacity={1}
+          shadow={false}
+          hide={true}
+          nonblock={false}
+          desktop={false}
+        />
+        <Notification
           type='error'
-          title='Error test'
+          title='Error example'
           text='Error message goes here'
           animation='show'
+          delay={2000}
+          opacity={1}
+          shadow={false}
+          hide={true}
+          nonblock={false}
+          desktop={false}
+        />
+        <Notification
+          type='info'
+          title='Info example'
+          text='Information message goes here'
+          animation='pulse'
           delay={2000}
           opacity={1}
           shadow={false}
