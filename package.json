@@ -94,5 +94,25 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
-  }
+  },
+  "description": "<img src=\"http://i.imgur.com/rWh04yhr.png\" />",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuber/react-pnotify.git"
+  },
+  "keywords": [
+    "notification",
+    "notifications",
+    "pnotify",
+    "react"
+  ],
+  "author": "Zak Huber <zakhuber@gmail.com> (http://esoteryk.info)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zhuber/react-pnotify/issues"
+  },
+  "homepage": "https://github.com/zhuber/react-pnotify#readme"
 }
