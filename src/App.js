@@ -18,9 +18,9 @@ class App extends Component {
         </p>
         <Notification
           type='notice'
+          styling='brighttheme'
           title='Notice example - Permanent'
           text='Helpful notice content goes here'
-          animation='show'
           delay={2000}
           opacity={1}
           shadow={false}
@@ -30,9 +30,9 @@ class App extends Component {
         />
         <Notification
           type='success'
+          styling='brighttheme'
           title='Success example'
-          text='Success message goes here'
-          animation='pulse'
+          text='Success message using brighttheme'
           delay={2000}
           opacity={1}
           shadow={false}
@@ -42,9 +42,9 @@ class App extends Component {
         />
         <Notification
           type='error'
+          styling='brighttheme'
           title='Error example'
-          text='Error message goes here'
-          animation='show'
+          text='Error message using brighttheme'
           delay={2000}
           opacity={1}
           shadow={false}
@@ -54,9 +54,21 @@ class App extends Component {
         />
         <Notification
           type='info'
+          styling='bootstrap3'
           title='Info example'
-          text='Information message goes here'
-          animation='pulse'
+          text='Information message using bootstrap'
+          delay={2000}
+          opacity={1}
+          shadow={false}
+          hide={false}
+          nonblock={false}
+          desktop={false}
+        />
+        <Notification
+          type='info'
+          styling='fontawesome'
+          title='Info example'
+          text='Information message using fontawesome'
           delay={2000}
           opacity={1}
           shadow={false}
