@@ -21,7 +21,6 @@ class App extends Component {
           title='Notice example - Permanent'
           text='Helpful notice content goes here'
           delay={2000}
-          opacity={1}
           shadow={false}
           hide={false}
           nonblock={true}
@@ -34,9 +33,8 @@ class App extends Component {
           animateIn='zoomInLeft'
           animateOut='zoomOutRight'
           delay={2000}
-          opacity={1}
           shadow={false}
-          hide={false}
+          hide={true}
           nonblock={false}
           desktop={false}
         />
@@ -46,10 +44,9 @@ class App extends Component {
           text='Error message goes here'
           animateIn='bounceInLeft'
           animateOut='bounceOutRight'
-          delay={2000}
-          opacity={1}
-          shadow={false}
-          hide={false}
+          delay={2500}
+          shadow={true}
+          hide={true}
           nonblock={false}
           desktop={false}
         />
@@ -57,10 +54,19 @@ class App extends Component {
           type='info'
           title='Info example'
           text='Information message goes here'
-          delay={2000}
-          opacity={1}
+          delay={3000}
           shadow={false}
-          hide={false}
+          hide={true}
+          nonblock={false}
+          desktop={true}
+        />
+        <Notification
+          type='info'
+          title='Info example'
+          text='Information message goes here'
+          delay={4000}
+          shadow={true}
+          hide={true}
           nonblock={false}
           desktop={false}
         />
