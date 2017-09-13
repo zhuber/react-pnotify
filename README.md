@@ -6,7 +6,7 @@
 Beautiful JavaScript notification component for React. Many options and settings, including desktop notifications, etc.
 
 # Options
-- Opacity
+- Animation (animateIn, animateOut)
 - Error, Success, Notices, or Information notification types
 - Desktop notifications
 - Non-blocking
@@ -30,9 +30,7 @@ class Demo extends React.Component {
         type='notice'
         title='Notice example - Permanent'
         text='Helpful notice content goes here'
-        animation='show'
         delay={2000}
-        opacity={1}
         shadow={false}
         hide={false}
         nonblock={true}
@@ -42,11 +40,11 @@ class Demo extends React.Component {
         type='success'
         title='Success example'
         text='Success message goes here'
-        animation='pulse'
+        animateIn='zoomInLeft'
+        animateOut='zoomOutRight'
         delay={2000}
-        opacity={1}
         shadow={false}
-        hide={false}
+        hide={true}
         nonblock={false}
         desktop={false}
       />
@@ -54,11 +52,11 @@ class Demo extends React.Component {
         type='error'
         title='Error example'
         text='Error message goes here'
-        animation='show'
-        delay={2000}
-        opacity={1}
-        shadow={false}
-        hide={false}
+        animateIn='bounceInLeft'
+        animateOut='bounceOutRight'
+        delay={2500}
+        shadow={true}
+        hide={true}
         nonblock={false}
         desktop={false}
       />
@@ -66,11 +64,19 @@ class Demo extends React.Component {
         type='info'
         title='Info example'
         text='Information message goes here'
-        animation='pulse'
-        delay={2000}
-        opacity={1}
+        delay={3000}
         shadow={false}
-        hide={false}
+        hide={true}
+        nonblock={false}
+        desktop={true}
+      />
+      <Notification
+        type='info'
+        title='Info example'
+        text='Information message goes here'
+        delay={4000}
+        shadow={true}
+        hide={true}
         nonblock={false}
         desktop={false}
       />
