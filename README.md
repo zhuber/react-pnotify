@@ -18,6 +18,15 @@ Beautiful JavaScript notification component for React. Many options and settings
 # Live PNotify demos and examples
 https://sciactive.github.io/pnotify/
 
+# Animation
+In order to use animation, you will need to include the Animate.css library:
+
+```
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+```
+
 # Usage
 
 ```javascript
