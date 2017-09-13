@@ -54,6 +54,8 @@ class App extends Component {
           type='info'
           title='Info example'
           text='Information message goes here'
+          animateIn='lightSpeedIn'
+          animateOut='hinge'
           delay={3000}
           shadow={false}
           hide={true}
@@ -64,6 +66,8 @@ class App extends Component {
           type='info'
           title='Info example'
           text='Information message goes here'
+          animateIn='flipInX'
+          animateOut='flipOutY'
           delay={4000}
           shadow={true}
           hide={true}
