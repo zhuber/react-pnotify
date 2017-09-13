@@ -20,7 +20,6 @@ class App extends Component {
           type='notice'
           title='Notice example - Permanent'
           text='Helpful notice content goes here'
-          animation='show'
           delay={2000}
           opacity={1}
           shadow={false}
@@ -32,7 +31,8 @@ class App extends Component {
           type='success'
           title='Success example'
           text='Success message goes here'
-          animation='pulse'
+          animateIn='zoomInLeft'
+          animateOut='zoomOutRight'
           delay={2000}
           opacity={1}
           shadow={false}
@@ -44,7 +44,8 @@ class App extends Component {
           type='error'
           title='Error example'
           text='Error message goes here'
-          animation='show'
+          animateIn='bounceInLeft'
+          animateOut='bounceOutRight'
           delay={2000}
           opacity={1}
           shadow={false}
@@ -56,7 +57,6 @@ class App extends Component {
           type='info'
           title='Info example'
           text='Information message goes here'
-          animation='pulse'
           delay={2000}
           opacity={1}
           shadow={false}
