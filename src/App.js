@@ -20,9 +20,7 @@ class App extends Component {
           type='notice'
           title='Notice example - Permanent'
           text='Helpful notice content goes here'
-          animation='show'
           delay={2000}
-          opacity={1}
           shadow={false}
           hide={false}
           nonblock={true}
@@ -32,11 +30,9 @@ class App extends Component {
           type='success'
           title='Success example'
           text='Success message goes here'
-          animation='pulse'
           delay={2000}
-          opacity={1}
           shadow={false}
-          hide={false}
+          hide={true}
           nonblock={false}
           desktop={false}
         />
@@ -44,11 +40,9 @@ class App extends Component {
           type='error'
           title='Error example'
           text='Error message goes here'
-          animation='show'
-          delay={2000}
-          opacity={1}
-          shadow={false}
-          hide={false}
+          delay={2500}
+          shadow={true}
+          hide={true}
           nonblock={false}
           desktop={false}
         />
@@ -56,11 +50,19 @@ class App extends Component {
           type='info'
           title='Info example'
           text='Information message goes here'
-          animation='pulse'
-          delay={2000}
-          opacity={1}
+          delay={3000}
           shadow={false}
-          hide={false}
+          hide={true}
+          nonblock={false}
+          desktop={true}
+        />
+        <Notification
+          type='info'
+          title='Info example'
+          text='Information message goes here'
+          delay={4000}
+          shadow={true}
+          hide={true}
           nonblock={false}
           desktop={false}
         />
