@@ -1,4 +1,4 @@
-# PNotify for React [![Build Status](https://travis-ci.org/zhuber/react-pnotify.svg)](https://travis-ci.org/zhuber/react-pnotify) [![npm version](https://badge.fury.io/js/react-pnotify)](http://badge.fury.io/js/react-pnotify)
+# PNotify for React [![Build Status](https://travis-ci.org/zhuber/react-pnotify.svg)](https://travis-ci.org/zhuber/react-pnotify) [![npm version](https://badge.fury.io/js/react-pnotify.svg)](https://badge.fury.io/js/react-pnotify)
 
 <img src="http://i.imgur.com/rWh04yhr.png" />
 
