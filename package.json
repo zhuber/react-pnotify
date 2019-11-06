@@ -1,6 +1,6 @@
 {
   "name": "jpylisela-react-pnotify",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "lib/index.js",
   "dependencies": {
     "autoprefixer": "7.1.2",
@@ -25,7 +25,7 @@
     "file-loader": "0.11.2",
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
-    "jest": "20.0.4",
+    "jest": "20.0.4 - 23",
     "object-assign": "4.1.1",
     "pnotify": "^3.2.1",
     "postcss-flexbugs-fixes": "3.2.0",
