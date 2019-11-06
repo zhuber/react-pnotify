@@ -1,5 +1,5 @@
 {
-  "name": "react-pnotify",
+  "name": "jpylisela-react-pnotify",
   "version": "0.0.6",
   "main": "lib/index.js",
   "dependencies": {
@@ -101,7 +101,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhuber/react-pnotify.git"
+    "url": "git+https://github.com/jpylisela/react-pnotify.git"
   },
   "keywords": [
     "notification",
@@ -112,7 +112,7 @@
   "author": "Zak Huber <zakhuber@gmail.com> (http://esoteryk.info)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/zhuber/react-pnotify/issues"
+    "url": "https://github.com/jpylisela/react-pnotify/issues"
   },
-  "homepage": "https://github.com/zhuber/react-pnotify#readme"
+  "homepage": "https://github.com/jpylisela/react-pnotify#readme"
 }
