@@ -5,6 +5,8 @@
 # Overview
 Beautiful JavaScript notification component for React. Many options and settings, including desktop notifications, etc.
 
+Fork of https://github.com/zhuber/react-pnotify, with less restrictive dependencies.
+
 # Options
 - Animation (animateIn, animateOut)
 - Error, Success, Notices, or Information notification types
